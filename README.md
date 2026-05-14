@@ -1,11 +1,13 @@
 # Focus Music (FM) Radio
 
+If you're reading this, you should probably just use CLIAMP instead. I'm just building this for fun.
+
 A terminal application to play music while you work, study, focus, etc.
 
 Make heavy use of tools like mpv for the hard stuff. 
 
 
-## Getting Started
+## Simple Bash Alternative
 
 The easiest way to get started is to collect a set of audio that is already hosted somewhere online. This could be .mp3 files in object storage, YouTube videos, etc. 
 
@@ -34,3 +36,8 @@ mpv --no-video \
     --force-media-title="fm.radio · $title" \
     "$url"
 ```
+
+
+## Getting Started
+
+Create `~/.confic/fm-radio/tracks.yaml`
