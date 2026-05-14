@@ -23,7 +23,7 @@ case "$key" in
     echo "fm.radio: unknown track '${1}'"
     echo ""
     echo "Available tracks:"
-    echo "  fm.radio InnerSpeaker  →  Tame Impala - InnerSpeaker (Live From Wave House)"    
+    echo "  fm.radio InnerSpeaker  ➜  Tame Impala - InnerSpeaker (Live From Wave House)"    
     exit 1
     ;;
 esac
